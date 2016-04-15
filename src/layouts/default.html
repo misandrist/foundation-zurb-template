@@ -11,9 +11,38 @@
   </head>
   <body>
 
-    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
-    {{> body}}
+    <div class="row top">
+      <div class="large-3 columns">
+        <div class="row">
+          <div class="large-12 columns logotop">ANDERSON & ASSOCIATES</div>
+        </div>
+        <div class="row">
+          <div class="large-12 columns logobot">We Protect Imagination.</div>
+        </div>
+      </div>
+      <div class="large-1 columns vbar">
+      </div>
+      <div class="large-7 columns end">
+        <ul class="menu align-center">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Register a Domain</a></li>
+          <li><a href="#">Copyright Registration</a></li>
+          <li><a href="#">Trademark Registration</a></li>
+        </ul>
+      </div>
+    </div>
 
+
+    <div class="row content">
+      <div class="large-12 columns">
+        {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+        {{> body}}
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <!-- this will include every plugin and utility required by Foundation -->
+    <script src="js/foundation.min.js"></script>
     <script src="{{root}}assets/js/app.js"></script>
   </body>
 </html>

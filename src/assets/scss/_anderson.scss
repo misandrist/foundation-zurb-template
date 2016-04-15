@@ -1,22 +1,73 @@
+// Colors
+$anderson-purple: #2e3191;
+$anderson-orange: #fdbd30;
+$anderson-body-text-grey: #6d6e70;
+$anderson-dividing-line-grey: #d0d2d3;
+
+$body-font-color: $anderson-purple;
+
+$top-height: 8rem;
+
 // Fonts
-
-
-
 $body-font-family: "Open Sans", Hevvetica, Roboto, Arias, sans-serif;
 
+.homepage-header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    background-color: $anderson-purple;
+}
+
+.pyi {
+    font-size: 140%;
+    text-align: center;
+    font-weight: 700;
+}
+
+.loremipsum {
+    font-size: 110%;
+    text-align: center;
+    font-weight: 100;
+}
 
 .logotop {
-    font-size: 150%;
+    font-size: 180%;
     font-weight: 900;
+    line-height: 150%;
 }
 
 .logobot {
+    color: $anderson-body-text-grey;
     font-weight: lighter;
-    font-size: 100%
+    font-size: 150%
+}
+
+.top {
+    height: $top-height;
+    margin-bottom: 3rem;
+}
+
+.cprol {
+    height: 200px;
+    width: 200px;
+}
+
+.top > div {
+    padding-top: 1rem;
 }
 
 .vbar {
+    height: $top-height;
     border-right: thin;
+    border-left: thin solid $anderson-dividing-line-grey;
+    padding: 0;
+    width: 1px;
+    min-width: 0;
+}
+
+.menu > li > a {
+    color: $anderson-body-text-grey;
+    font-size: 85%;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
