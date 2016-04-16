@@ -12,14 +12,26 @@
 
 
 .cprol {
-    height: 2rem;
-    width: 2rem;
+    height: 4rem;
+    width: 4rem;
 }
 
 .icon-caption {
     text-align: center;
+    font-size: 75%;
+    font-weight: 900;
 }
 
 .icon-script {
     text-align: center;
+    color: $anderson-body-text-grey;
+    font-weight: 100;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
+
+.register-button {
+    @include button(false, $anderson-orange, $anderson-orange, white, solid);
+    width: 7rem;
+}
+

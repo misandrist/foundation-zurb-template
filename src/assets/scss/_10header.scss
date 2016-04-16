@@ -1,7 +1,13 @@
-$top-height: 8rem;
-$logotop-size: 140%;
-$logobot-size: 100%;
-$menu-font-size: 70%;
+$top-height: 9rem;
+$logotop-size: 130%;
+$logobot-size: 90%;
+$menu-font-size: 90%;
+
+.top {
+    padding-top: 1rem;
+    height: $top-height;
+    margin-bottom: 1rem;
+}
 
 .homepage-header {
     padding-top: 1rem;
@@ -11,6 +17,7 @@ $menu-font-size: 70%;
 }
 
 .logotop {
+    color: $anderson-purple;
     font-size: $logotop-size;
     font-weight: 900;
     line-height: 150%;
@@ -18,27 +25,17 @@ $menu-font-size: 70%;
 
 .logobot {
     color: $anderson-body-text-grey;
-    font-weight: lighter;
+    font-weight: 100;
     font-size: $logobot-size;
 }
 
-.top {
-    height: $top-height;
-    margin-bottom: 3rem;
-}
-
-.top > div {
-    padding-top: 1rem;
-}
-
-.vbar {
-    height: $top-height;
-    border-right: thin solid $anderson-dividing-line-grey;
-    padding: 0;
+.menucont {
+    border-left: thin solid $anderson-dividing-line-grey;
+    height: 5em;
 }
 
 .menu {
-    padding-top: 2rem;
+    padding-top: 1.5rem;
 }
 
 .menu > li > a {
