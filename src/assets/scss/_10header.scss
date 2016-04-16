@@ -1,0 +1,48 @@
+$top-height: 8rem;
+$logotop-size: 140%;
+$logobot-size: 100%;
+$menu-font-size: 70%;
+
+.homepage-header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    background-color: $anderson-purple;
+}
+
+.logotop {
+    font-size: $logotop-size;
+    font-weight: 900;
+    line-height: 150%;
+}
+
+.logobot {
+    color: $anderson-body-text-grey;
+    font-weight: lighter;
+    font-size: $logobot-size;
+}
+
+.top {
+    height: $top-height;
+    margin-bottom: 3rem;
+}
+
+.top > div {
+    padding-top: 1rem;
+}
+
+.vbar {
+    height: $top-height;
+    border-right: thin solid $anderson-dividing-line-grey;
+    padding: 0;
+    width: 0px;
+}
+
+.menu {
+    padding-top: 2rem;
+}
+
+.menu > li > a {
+    color: $anderson-body-text-grey;
+    font-size: $menu-font-size;
+}
